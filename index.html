@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="visual">
+        <div class="inner">
+            <div class="title fade-in">
+                <img src="img/2024_5_say_thanks_top_logo.png" alt="">
+                <button>자세히 보기</button>
+            </div>
+            <div class="pcup1 fade-in">
+                <img src="img/2024_5_say_thanks_top_drink1.png" alt="" class="cup1 image">
+            </div>
+            <div class="pcup2 fade-in">
+                <img src="img/2024_5_say_thanks_top_drink2.png" alt="" class="cup2 image">
+            </div>
+            <div class="pcup3 fade-in">
+                <img src="img/2024_5_say_thanks_top_drink3.png" alt="" class="cup3 image">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+        const fadeEls = document.querySelectorAll('.visual .fade-in');
+        gsap.from(fadeEls, {
+            duration: 2,
+            scale: .3,
+            ease: 'elastic',
+            opacity: 0,
+            stagger: 0.7
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.visual{
+    background: url(img/2024_summer_promotion_bg.jpg ) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 32vw;
+}
+
+.inner{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    height: 32vw;
+}
+
+.visual .title{
+    position: absolute;
+    top: 160px;
+    left: -1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual .title button{
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid #13362d;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.visual .title button:hover{
+    background-color: #13362d;
+    color: white;
+}
+
+.visual .pcup1{
+    position: absolute;
+    bottom: 70px;
+    right: 200px;
+}
+
+.visual .pcup2{
+    position: absolute;
+    bottom: 80px;
+    right: 470px;
+}
+
+.visual .pcup3{
+    position: absolute;
+    bottom: 80px;
+    right: -47px;
+}
